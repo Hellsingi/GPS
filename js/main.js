@@ -26,7 +26,7 @@ imgSection.onclick = event => {
       console.log('item',item);
       console.log('imageDel',imageDel);
       console.log('item.srcitem.src imageDel.src',imageDel.src);
-      imageDel.src = target.src.slice(0, -8) + "pass.png";
+      imageDel.src = target.src.slice(0, -7) + "pas.png";
       item.classList.add("passive");
     }
   });
@@ -41,7 +41,7 @@ function activeImage(closestDiv, target) {
     selectedImage.classList.remove("activeImg");
   }
   selectedImage = target;
-  selectedImage.src = target.src.slice(0, -8) + "act.png";
+  selectedImage.src = target.src.slice(0, -7) + "act.png";
 }
 
 jobSection.onclick = event => {
