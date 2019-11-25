@@ -161,3 +161,7 @@ form input {
   text-decoration: none;
   cursor: pointer;
 }
+
+.activeImg {
+  color: blue;
+}
